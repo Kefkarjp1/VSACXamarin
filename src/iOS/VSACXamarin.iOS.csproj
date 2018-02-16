@@ -95,7 +95,7 @@
     <OutputPath>bin\iPhone\QA</OutputPath>
     <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;QA;ENABLE_TEST_CLOUD;</DefineConstants>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignKey>iPhone Distribution: John Foley (N7M86ZE93M)</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchVerbosity></MtouchVerbosity>
     <MtouchFloat32>true</MtouchFloat32>
