@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSACXamarin.iOS", "VSACXamarin.iOS.csproj", "{33550679-F7B2-439D-8C91-B5DC73405E3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		QA|iPhone = QA|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.Release|iPhone.Build.0 = Release|iPhone
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.QA|iPhone.ActiveCfg = QA|iPhone
+		{33550679-F7B2-439D-8C91-B5DC73405E3B}.QA|iPhone.Build.0 = QA|iPhone
+	EndGlobalSection
+EndGlobal

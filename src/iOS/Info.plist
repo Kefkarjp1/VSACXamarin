@@ -5,9 +5,9 @@
 	<key>CFBundleDisplayName</key>
 	<string>VSACXamarin</string>
 	<key>CFBundleName</key>
-	<string>VSACXamarin</string>
+	<string>VSACXamarinApp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.lyndaclass.VSACXamarin</string>
+	<string>com.lyndaclass.xamarin</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
