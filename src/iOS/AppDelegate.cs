@@ -4,6 +4,9 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Analytics;
 
 namespace VSACXamarin.iOS
 {
@@ -14,6 +17,11 @@ namespace VSACXamarin.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+#if !DEBUG
+            AppCenter.Start(Constants.VsacApiKey, typeof(Analytics), typeof(Crashes));
+#endif
+                     
 
 #if ENABLE_TEST_CLOUD
             Xamarin.Calabash.Start();
