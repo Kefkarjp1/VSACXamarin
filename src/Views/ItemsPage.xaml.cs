@@ -24,7 +24,7 @@ namespace VSACXamarin
             if (item == null)
                 return;
 
-            Analytics.TrackEvent("Item Selected", new Dictionary<string, string> { { "id", item.Id }, { "description", item.description } });
+            Analytics.TrackEvent("Item Selected", new Dictionary<string, string> { { "id", item.Id }, { "description", item.Description } });
 
             await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
 
