@@ -44,7 +44,7 @@
     <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;RELEASE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Distribution: Magenic Technologies, Inc.</CodesignKey>
+    <CodesignKey>iPhone Distribution: John Foley (N7M86ZE93M)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
@@ -99,7 +99,7 @@
     <OutputPath>bin\iPhone\QA</OutputPath>
     <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;QA;ENABLE_TEST_CLOUD;</DefineConstants>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Distribution: John Foley (N7M86ZE93M)</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchVerbosity></MtouchVerbosity>
     <MtouchFloat32>true</MtouchFloat32>
