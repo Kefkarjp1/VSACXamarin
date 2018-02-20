@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Microsoft.AppCenter.Analytics;
 
 namespace VSACXamarin
 {
@@ -19,15 +20,16 @@ namespace VSACXamarin
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            throw new InvalidCastException("Hey we got an error");
-            //var item = args.SelectedItem as Item;
-            //if (item == null)
-            //    return;
+            var item = args.SelectedItem as Item;
+            if (item == null)
+                return;
 
-            //await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
+            Analytics.TrackEvent("Item Selected", new Dictionary<string, string> { { "id", item.Id }, { "description", item.description } });
 
-            //// Manually deselect item
-            //ItemsListView.SelectedItem = null;
+            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
+
+            // Manually deselect item
+            ItemsListView.SelectedItem = null;
         }
 
         async void AddItem_Clicked(object sender, EventArgs e)
